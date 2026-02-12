@@ -2,6 +2,8 @@
 
 A machine learning project to predict customer churn for a telecommunications company using various classification algorithms.
 
+Live App Link: https://customerchurnprediction-gnopmjyzysnuhb7vuoh7v5.streamlit.app/#enter-customer-details
+
 ## 📋 Project Overview
 
 This project analyzes customer data to predict whether a customer is likely to churn (leave the service). The model helps businesses identify at-risk customers and take proactive measures to retain them.
