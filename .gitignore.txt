@@ -1,0 +1,57 @@
+# =========================================
+# Python cache & compiled files
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================================
+# Virtual environment
+# =========================================
+venv/
+.env/
+
+# =========================================
+# Jupyter Notebook checkpoints
+# =========================================
+.ipynb_checkpoints/
+
+# =========================================
+# OS generated files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# NLTK / downloaded resources (if any)
+# =========================================
+nltk_data/
+
+# =========================================
+# Large raw or intermediate data (optional)
+# =========================================
+# If dataset is large, uncomment these
+# data/Telco_Customer_Churn.csv
+# data/cleaned_data.csv
+
+# =========================================
+# Logs
+# =========================================
+*.log
+
+# =========================================
+# VS Code / IDE settings
+# =========================================
+.vscode/
+.idea/
+
+# =========================================
+# Temporary files
+# =========================================
+*.tmp
+*.bak
+
+# Models - exclude all except best_model.joblib
+models/*
+!models/best_model.joblib
+!models/feature_columns.json
